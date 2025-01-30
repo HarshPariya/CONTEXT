@@ -6,6 +6,7 @@ import { CounterContext } from "../context/Counter";
 
 function Counter() {
   const counterContext = useContext(CounterContext);
+    console.log(counterContext)
   return (
     <div>
       {/* //last  */}
